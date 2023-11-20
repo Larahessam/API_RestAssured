@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/ITI/Graduation Project/Solo/Rest/restassure">
+        <classes>
+            <class name="com.RestfulBooker.testcases.Booking">
+                <methods>
+                    <include name="GetAllBookingId"/>
+                    <include name="CreateNewBooking"/>
+                    <include name="VerifyCreatingProcessByGettingBookingInfo"/>
+                    <include name="CreateNewToken"/>
+                    <include name="UpdateBookingInfo"/>
+                    <include name="TryToDeleteBookingWithoutToken"/>
+                    <include name="DeleteBookingWithToken"/>
+                    <include name="VerifyThatBookingIsDeleted"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
